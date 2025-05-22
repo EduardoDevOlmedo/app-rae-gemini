@@ -8,7 +8,7 @@ from tkinter import messagebox
 import time
 
 def classify_image():
-    genai.configure(api_key="AIzaSyDPoSQDcchtOaPnZzqPvydEgCZId4AR-zo")
+    genai.configure(api_key="")
 
     img = Image.open(file_path_var.get())
 
